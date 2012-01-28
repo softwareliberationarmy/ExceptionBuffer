@@ -1,0 +1,6 @@
+ExceptionBuffer
+
+Summary
+ExceptionBuffer is a library written in C# for .NET 3.5 and above.  The purpose of the library is to throttle down the number of exceptions you receive when a production process goes awry.  For example, say you have a process that polls the database every ten seconds to see if an event has occurred.  On Sunday morning, the DBAs do some maintenance which brings the database server down for two hours.  If you have exception handling code that emails you when an error occurs, you'll receive an exception every ten seconds for two hours while the server is down.  That kind of spam to a pager, phone, or email inbox can be annoying.  Yet you don't want to suppress the errors, because there could be a legitimate problem.  
+
+One solution to this problem is to define a time threshold within which it's acceptable to receive X number of messages, and if the number of exceptions exceeds the frequency you set, you receive an error.  For example, say that you're willing to tolerate 5 database timeout errors per day.  You would create an exception buffer with a frequency of 5 per day, define the criteria for identifying the exceptions, and start the bufffer.  The buffer will only send you every sixth error.  
