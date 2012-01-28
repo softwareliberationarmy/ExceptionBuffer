@@ -18,6 +18,7 @@ namespace ExceptionBufferTest
         [TestMethod]
         public void E2E_MultipleExceptionsOfSameTypeThrownTooManyTimes_ProducesOnlyOneException()
         {
+            //NOTE:  no asserts because if this test fails it should throw an exception anyway
             ExceptionBuffer buffer = new ExceptionBuffer();
             buffer.Add(
                 new ExceptionBufferingCriteria()
@@ -45,6 +46,7 @@ namespace ExceptionBufferTest
         [TestMethod]
         public void E2E_MultipleExceptionsOfSameTypeThrownNotEnough_ProducesNoException()
         {
+            //NOTE:  no asserts because if this test fails it should throw an exception anyway
             ExceptionBuffer buffer = new ExceptionBuffer();
             buffer.Add(
                 new ExceptionBufferingCriteria()
@@ -64,6 +66,7 @@ namespace ExceptionBufferTest
         [TestMethod]
         public void E2E_MultipleExceptionsOfSameTypeThrownEnoughButTooInfrequently_ProducesNoException()
         {
+            //NOTE:  no asserts because if this test fails it should throw an exception anyway
             ExceptionBuffer buffer = new ExceptionBuffer();
             buffer.Add(
                 new ExceptionBufferingCriteria()
