@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExceptionBuffer">
+</Property><Property Name="Solution File" Value="C:\git\vs2010\ExceptionBuffer\ExceptionBuffer.sln">
+</Property><Property Name="Date" Value="Saturday, January 28, 2012">
+</Property><Property Name="Time" Value="11:29 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Test.ExceptionBuffer" Source="Test.ExceptionBuffer\Test.ExceptionBuffer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Test.ExceptionBuffer" Source="Test.ExceptionBuffer\Test.ExceptionBuffer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExceptionBuffer" Source="ExceptionBuffer\ExceptionBuffer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExceptionBuffer" Source="ExceptionBuffer\ExceptionBuffer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ExceptionBuffer.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ExceptionBuffer.sln" Description="Converted">
+</Event><Event ErrorLevel="3" Project="" Source="ExceptionBuffer.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ExceptionBuffer.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="Test.ExceptionBuffer" Source="Test.ExceptionBuffer\Test.ExceptionBuffer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ExceptionBuffer" Source="ExceptionBuffer\ExceptionBuffer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
